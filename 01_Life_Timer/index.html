@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Life Journey Timer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1 id="title">Enter Your Date of Birth</h1>
+
+  <div class="input-container" id="inputBox">
+    <input type="date" id="dob" />
+    <button onclick="startTimer()">Start</button>
+  </div>
+
+  <div class="timer" id="timer">
+    <div><p id="years">00</p><span>Years</span></div>
+    <div><p id="months">00</p><span>Months</span></div>
+    <div><p id="days">00</p><span>Days</span></div>
+    <div><p id="hours">00</p><span>Hours</span></div>
+    <div><p id="minutes">00</p><span>Minutes</span></div>
+    <div><p id="seconds">00</p><span>Seconds</span></div>
+  </div>
+
+ <script src="script.js"></script>
+</body>
+</html>

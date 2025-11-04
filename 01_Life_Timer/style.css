@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: url("https://images.unsplash.com/photo-1527796261673-e9d61cc1e03c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHRyYXZlbCUyMG5hdHVyZSUyMGZvciUyMGJveXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600https://images.unsplash.com/photo-1646337084645-523255624ac3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHRyYXZlbCUyMG5hdHVyZSUyMGZvciUyMGJveXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600")
+    no-repeat center center/cover;
+  color: rgb(206, 234, 245);
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  backdrop-filter: brightness(0.8);
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.input-container {
+  margin-bottom: 30px;
+}
+
+input {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background: #00aaff;
+  color: white;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0077cc;
+}
+
+.timer {
+  display: none;
+  justify-content: center;
+  gap: 25px;
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+.timer div {
+  text-align: center;
+  font-size: 4rem;
+  gap: 2rem;
+  color: #e8f409;
+}
+
+.timer span {
+  display: block;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: 5px;
+  color: #6175d9;
+}
+
+@media (max-width: 600px) {
+  .timer {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
